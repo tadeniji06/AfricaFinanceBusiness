@@ -8,6 +8,13 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Home",
+	description:
+		"Africa Finance Business – Delivering professional news, insights, and analysis from the world of African finance.",
+};
 
 const LATEST_NEWS = [
 	{

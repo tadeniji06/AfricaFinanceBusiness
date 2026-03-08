@@ -1,4 +1,11 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Contact",
+	description:
+		"Get in touch with Africa Finance Business for editorial inquiries, press releases, or partnership opportunities.",
+};
 
 export default function Contact() {
 	return (

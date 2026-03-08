@@ -1,4 +1,10 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "About Us",
+	description:
+		"Discover the mission and team behind Africa Finance Business, democratizing financial intelligence across the African continent.",
+};
 
 export default function About() {
 	return (

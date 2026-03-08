@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Africa Finance Business",
+	title: {
+		template: "%s | Africa Finance Business",
+		default: "Africa Finance Business",
+	},
 	description:
 		"News, insights and analysis from the world of African finance and business.",
 };
